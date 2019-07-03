@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DeckOfOneOBJC/Controllers/ViewControllers/DVMCardViewController.swift"
+            timestampString = "583806763.456139"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "updateViews()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DeckOfOneOBJC.DVMCardViewController.updateViews() -&gt; ()"
+                  moduleName = "DeckOfOneOBJC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jmandozzi/Desktop/Jasons%20Programming/Week%204/DeckOfOneOBJC/DeckOfOneOBJC/Controllers/ViewControllers/DVMCardViewController.swift"
+                  timestampString = "583806763.715351"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "20">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;__C.DVMCard&gt;) -&gt; () in DeckOfOneOBJC.DVMCardViewController.updateViews() -&gt; ()"
+                  moduleName = "DeckOfOneOBJC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jmandozzi/Desktop/Jasons%20Programming/Week%204/DeckOfOneOBJC/DeckOfOneOBJC/Controllers/ViewControllers/DVMCardViewController.swift"
+                  timestampString = "583806763.72508"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "35">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DeckOfOneOBJC/Controllers/ViewControllers/DVMCardViewController.swift"
+            timestampString = "583806763.456251"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "updateViews()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;__C.DVMCard&gt;) -&gt; () in DeckOfOneOBJC.DVMCardViewController.updateViews() -&gt; ()"
+                  moduleName = "DeckOfOneOBJC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jmandozzi/Desktop/Jasons%20Programming/Week%204/DeckOfOneOBJC/DeckOfOneOBJC/Controllers/ViewControllers/DVMCardViewController.swift"
+                  timestampString = "583806763.7383"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "35">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIImage) -&gt; () in closure #1 (Swift.Array&lt;__C.DVMCard&gt;) -&gt; () in DeckOfOneOBJC.DVMCardViewController.updateViews() -&gt; ()"
+                  moduleName = "DeckOfOneOBJC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jmandozzi/Desktop/Jasons%20Programming/Week%204/DeckOfOneOBJC/DeckOfOneOBJC/Controllers/ViewControllers/DVMCardViewController.swift"
+                  timestampString = "583806763.74058"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "173">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DeckOfOneOBJC/Controllers/ViewControllers/DVMCardViewController.swift"
+            timestampString = "583806763.456316"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "updateViews()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.UIImage) -&gt; () in closure #1 (Swift.Array&lt;__C.DVMCard&gt;) -&gt; () in DeckOfOneOBJC.DVMCardViewController.updateViews() -&gt; ()"
+                  moduleName = "DeckOfOneOBJC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jmandozzi/Desktop/Jasons%20Programming/Week%204/DeckOfOneOBJC/DeckOfOneOBJC/Controllers/ViewControllers/DVMCardViewController.swift"
+                  timestampString = "583806763.747787"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "173">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (__C.UIImage) -&gt; () in closure #1 (Swift.Array&lt;__C.DVMCard&gt;) -&gt; () in DeckOfOneOBJC.DVMCardViewController.updateViews() -&gt; ()"
+                  moduleName = "DeckOfOneOBJC"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/jmandozzi/Desktop/Jasons%20Programming/Week%204/DeckOfOneOBJC/DeckOfOneOBJC/Controllers/ViewControllers/DVMCardViewController.swift"
+                  timestampString = "583806763.750283"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "133">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DeckOfOneOBJC/Controllers/ViewControllers/DVMCardViewController.swift"
+            timestampString = "583806763.4563839"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "updateViews()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DeckOfOneOBJC/Controllers/ViewControllers/DVMCardViewController.swift"
+            timestampString = "583806763.45646"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "updateViews()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "DeckOfOneOBJC/Controllers/ViewControllers/DVMCardViewController.swift"
+            timestampString = "583806763.4565099"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "updateViews()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

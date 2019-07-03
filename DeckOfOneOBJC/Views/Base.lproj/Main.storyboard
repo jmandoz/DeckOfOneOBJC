@@ -1,24 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ceC-7N-Dmi">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Card View Controller-->
+        <scene sceneID="sEo-7b-nCe">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController id="ceC-7N-Dmi" customClass="DVMCardViewController" customModule="DeckOfOneOBJC" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lSj-f9-uY8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="rxo-bl-s3K">
+                                <rect key="frame" x="87" y="101" width="240" height="415"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="H6q-iK-cx7">
+                                        <rect key="frame" x="0.0" y="0.0" width="240" height="317"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="240" id="6zN-Gg-cpN"/>
+                                            <constraint firstAttribute="height" constant="317" id="FT8-2T-gL7"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cni-20-0Lc">
+                                        <rect key="frame" x="0.0" y="329" width="240" height="86"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Cni-20-0Lc" secondAttribute="trailing" id="qew-QX-gv4"/>
+                                </constraints>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l2I-7S-sxp">
+                                <rect key="frame" x="184" y="687" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="cardButtonPushed:" destination="ceC-7N-Dmi" eventType="touchUpInside" id="vwg-D0-0bb"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="rxo-bl-s3K" firstAttribute="centerX" secondItem="lSj-f9-uY8" secondAttribute="centerX" id="2bl-kV-9WO"/>
+                            <constraint firstItem="nl7-nX-fX9" firstAttribute="trailing" secondItem="l2I-7S-sxp" secondAttribute="trailing" constant="184" id="3Ft-ME-uNr"/>
+                            <constraint firstItem="nl7-nX-fX9" firstAttribute="bottom" secondItem="l2I-7S-sxp" secondAttribute="bottom" constant="145" id="NnU-kn-YEm"/>
+                            <constraint firstItem="l2I-7S-sxp" firstAttribute="leading" secondItem="nl7-nX-fX9" secondAttribute="leading" constant="184" id="kZw-Qm-RiL"/>
+                            <constraint firstItem="rxo-bl-s3K" firstAttribute="top" secondItem="nl7-nX-fX9" secondAttribute="top" constant="57" id="nKv-36-z3f"/>
+                            <constraint firstItem="rxo-bl-s3K" firstAttribute="centerX" secondItem="l2I-7S-sxp" secondAttribute="centerX" id="rkX-Kl-QhU"/>
+                            <constraint firstItem="rxo-bl-s3K" firstAttribute="centerX" secondItem="lSj-f9-uY8" secondAttribute="centerX" id="xFr-1y-Hx2"/>
+                            <constraint firstAttribute="bottom" secondItem="rxo-bl-s3K" secondAttribute="bottom" constant="380" id="yEy-dq-V3d"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="nl7-nX-fX9"/>
                     </view>
+                    <connections>
+                        <outlet property="cardImageView" destination="H6q-iK-cx7" id="7qS-pF-KJD"/>
+                        <outlet property="cardSuitLabel" destination="Cni-20-0Lc" id="7gN-w9-2Ch"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bxN-Hg-IMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="156.52173913043478" y="148.66071428571428"/>
         </scene>
     </scenes>
 </document>

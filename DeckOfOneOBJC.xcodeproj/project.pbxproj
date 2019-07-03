@@ -8,24 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		A4D4D60F22CBEBD300CEA7D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D4D60E22CBEBD300CEA7D1 /* AppDelegate.m */; };
-		A4D4D61222CBEBD300CEA7D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D4D61122CBEBD300CEA7D1 /* ViewController.m */; };
 		A4D4D61522CBEBD300CEA7D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D4D61322CBEBD300CEA7D1 /* Main.storyboard */; };
 		A4D4D61722CBEBD400CEA7D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4D4D61622CBEBD400CEA7D1 /* Assets.xcassets */; };
 		A4D4D61A22CBEBD400CEA7D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D4D61822CBEBD400CEA7D1 /* LaunchScreen.storyboard */; };
 		A4D4D61D22CBEBD400CEA7D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D4D61C22CBEBD400CEA7D1 /* main.m */; };
+		A4D4D62C22CBEED800CEA7D1 /* DVMCard.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D4D62B22CBEED800CEA7D1 /* DVMCard.m */; };
+		A4D4D62F22CBF7E900CEA7D1 /* DVMCardController.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D4D62E22CBF7E900CEA7D1 /* DVMCardController.m */; };
+		A4D4D63E22CC1B5A00CEA7D1 /* DVMCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D4D63D22CC1B5A00CEA7D1 /* DVMCardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A4D4D60A22CBEBD300CEA7D1 /* DeckOfOneOBJC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeckOfOneOBJC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4D4D60D22CBEBD300CEA7D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A4D4D60E22CBEBD300CEA7D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A4D4D61022CBEBD300CEA7D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A4D4D61122CBEBD300CEA7D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A4D4D61422CBEBD300CEA7D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4D4D61622CBEBD400CEA7D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4D4D61922CBEBD400CEA7D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4D4D61B22CBEBD400CEA7D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4D4D61C22CBEBD400CEA7D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A4D4D62A22CBEED800CEA7D1 /* DVMCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVMCard.h; sourceTree = "<group>"; };
+		A4D4D62B22CBEED800CEA7D1 /* DVMCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVMCard.m; sourceTree = "<group>"; };
+		A4D4D62D22CBF7E900CEA7D1 /* DVMCardController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVMCardController.h; sourceTree = "<group>"; };
+		A4D4D62E22CBF7E900CEA7D1 /* DVMCardController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVMCardController.m; sourceTree = "<group>"; };
+		A4D4D63D22CC1B5A00CEA7D1 /* DVMCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DVMCardViewController.swift; sourceTree = "<group>"; };
+		A4D4D63F22CC1B8200CEA7D1 /* DeckOfOneOBJC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DeckOfOneOBJC-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +87,8 @@
 		A4D4D62522CBEC6E00CEA7D1 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				A4D4D61022CBEBD300CEA7D1 /* ViewController.h */,
-				A4D4D61122CBEBD300CEA7D1 /* ViewController.m */,
+				A4D4D63D22CC1B5A00CEA7D1 /* DVMCardViewController.swift */,
+				A4D4D63F22CC1B8200CEA7D1 /* DeckOfOneOBJC-Bridging-Header.h */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -108,6 +114,8 @@
 		A4D4D62822CBEC9000CEA7D1 /* ModelControllers */ = {
 			isa = PBXGroup;
 			children = (
+				A4D4D62D22CBF7E900CEA7D1 /* DVMCardController.h */,
+				A4D4D62E22CBF7E900CEA7D1 /* DVMCardController.m */,
 			);
 			path = ModelControllers;
 			sourceTree = "<group>";
@@ -115,6 +123,8 @@
 		A4D4D62922CBEC9E00CEA7D1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A4D4D62A22CBEED800CEA7D1 /* DVMCard.h */,
+				A4D4D62B22CBEED800CEA7D1 /* DVMCard.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -150,6 +160,7 @@
 				TargetAttributes = {
 					A4D4D60922CBEBD300CEA7D1 = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -189,9 +200,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4D4D61222CBEBD300CEA7D1 /* ViewController.m in Sources */,
+				A4D4D63E22CC1B5A00CEA7D1 /* DVMCardViewController.swift in Sources */,
+				A4D4D62C22CBEED800CEA7D1 /* DVMCard.m in Sources */,
 				A4D4D61D22CBEBD400CEA7D1 /* main.m in Sources */,
 				A4D4D60F22CBEBD300CEA7D1 /* AppDelegate.m in Sources */,
+				A4D4D62F22CBF7E900CEA7D1 /* DVMCardController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,15 +346,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZLX8VSJT3;
-				INFOPLIST_FILE = DeckOfOneOBJC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DeckOfOneOBJC/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jasonbmandozzi.DeckOfOneOBJC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DeckOfOneOBJC/Controllers/ViewControllers/DeckOfOneOBJC-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -350,15 +367,18 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3ZLX8VSJT3;
-				INFOPLIST_FILE = DeckOfOneOBJC/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DeckOfOneOBJC/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.jasonbmandozzi.DeckOfOneOBJC;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DeckOfOneOBJC/Controllers/ViewControllers/DeckOfOneOBJC-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
